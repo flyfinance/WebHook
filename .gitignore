@@ -1,1 +1,42 @@
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Env / Secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Builds / Coverage / Caches
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+
+# Logs
+logs/
+*.log
+*.log.*
+nohup.out
+
+# App data gerada em runtime
+pagamentos.json
+
+# Vercel / Next (caso use no futuro)
+.vercel/
+.next/
+
+# Misc
+*.swp
+*.swo
